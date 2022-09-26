@@ -1,0 +1,116 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #1C1B1B;
+    // position: fixed;
+    // bottom: 0;
+    // width: 100%;
+    // height: 60px;   /* Height of the footer */
+    // background: #6cf;
+}
+
+.home-page {
+    .movie-genre {
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .card-title {
+        margin-bottom: 0px;
+    }
+}
+
+.navbar {
+    min-height: 80;
+    > li > a {
+        font-size: 19px;
+    }
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #EF1818 !important;
+}
+
+.bg-dark {
+    background-color: #1C1B1B !important;
+}
+
+.base-page {
+    background-color: #1C1B1B !important;
+}
+
+.fontColor {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.list-group-item.active {
+    background-color: #dc3545;
+}
+
+.card {
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    background-color: #DDDCDC;
+    transform: scale(1.1);
+}
+
+.imageURL {
+    width: 100%;
+}
+
+.formContact {
+    height: 150px;
+    width: 200px;
+}
+
+.modalColor {
+    color: black;
+    text-align: left;
+}
+
+.modal-content {
+    background-color: #DDDCDC;
+}
+
+.infoImage {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.6rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 2rem auto;
+    align: middle;
+    display: block;
+}
+
+.bg-icon {
+    color: white;
+    margin: 10px;
+}
+
+.center-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
